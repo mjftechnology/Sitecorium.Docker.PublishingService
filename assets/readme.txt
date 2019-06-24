@@ -1,0 +1,1 @@
+Drop publishing service zip file in this ./assets folder

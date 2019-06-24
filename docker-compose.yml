@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  web:
+    container_name: publishingservice
+    hostname: sitecore.publishing
+    build: 
+      context: .
+      args: 
+        PUBLISHING_PACKAGE: Sitecore Publishing Service 3.1.3 rev. 190424-x64.zip
+        CONN_STRING_CORE: Data Source=(local);Initial Catalog=SitecoreCore;User Id=sitecore;Password=sitecore;
+        CONN_STRING_MASTER: Data Source=(local);Initial Catalog=SitecoreMaster;User Id=sitecore;Password=sitecore;
+        CONN_STRING_WEB: Data Source=(local);Database=SitecoreWeb;User Id=sitecore;Password=sitecore;
+   
