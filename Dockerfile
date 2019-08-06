@@ -1,6 +1,6 @@
 # escape=`
 
-FROM mcr.microsoft.com/dotnet/framework/aspnet:4.6.2-windowsservercore-ltsc2016
+FROM mcr.microsoft.com/dotnet/framework/aspnet:4.7.1-windowsservercore-ltsc2016
 
 ARG DOTNETCOREHOSTING_EXE=c:\\install\\DotNetCore.1.1.0-WindowsHosting.exe
 ARG PUBLISHING_SITE_NAME=sitecore.publishing

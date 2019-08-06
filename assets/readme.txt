@@ -1,1 +1,1 @@
-Drop publishing service zip file in this ./assets folder
+Drop publishing service zip file in this ./assets folder and rename to Sitecore Publishing Service.zip
